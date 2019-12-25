@@ -1,4 +1,4 @@
-import time,streamlit as st,pandas as pd,numpy as np,math,matplotlib.pyplot as p,seaborn as sn
+import streamlit as st,pandas as pd,numpy as np,math,matplotlib.pyplot as p,seaborn as sn
 st.title('Expression plotter App')
 Exp=st.sidebar.selectbox('Select type of expression',('Linear','Quadratic','Cubic','Quartic','Trig','Exponential'))
 values=[x for x in range(-10,11)]
