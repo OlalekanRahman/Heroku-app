@@ -59,7 +59,6 @@ else:
 def table():
     if st.checkbox("Show/Hide values' ranges"):
         return st.dataframe(df)
-
 if Exp=='':
     pass
 elif Exp=='Trig':    
