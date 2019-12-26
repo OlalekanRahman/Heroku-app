@@ -1,5 +1,5 @@
-import time,streamlit as st,pandas as pd,numpy as np,math,matplotlib.pyplot as p,seaborn as sn
-st.title('Expression plotter App')
+import streamlit as st,pandas as pd,numpy as np,math,matplotlib.pyplot as p,seaborn as sn
+st.header('Expression plotter App')
 st.markdown('**This app is a tool for demonstrating how changing variable coefficients transforms graphical facades of mathematical expressions. it is prepared for school students and adults not in the mathematical knows')
 Exp=st.sidebar.selectbox('Select Type of Function',('','Linear','Quadratic','Cubic','Quartic','Trig','Exponential'))
 def graph_axis_range():
