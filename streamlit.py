@@ -1,5 +1,5 @@
 import streamlit as st,pandas as pd,numpy as np,math,matplotlib.pyplot as p,seaborn as sn
-st.title('Expression plotter App')
+st.header('Expression plotter App')
 Exp=st.sidebar.selectbox('Select type of expression',('Linear','Quadratic','Cubic','Quartic','Trig','Exponential'))
 values=[x for x in range(-10,11)]
 values_for_trig_exp=[math.radians(x) for x in range(0,361,10)]
